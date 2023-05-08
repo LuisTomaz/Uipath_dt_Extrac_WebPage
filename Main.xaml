@@ -1,0 +1,298 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1198,3464" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1208,3079" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="https://abes.com.br/associados/" Name="strUrl" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Associados - ABES" sap:VirtualizedContainerService.HintSize="1146,2968" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="Always" ScopeGuid="08968566-2adf-40c4-a902-436a5bc432bc" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1112,2751" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd:DataTable" Name="dt_Companies" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dt_Companies]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 0 Url' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='2' /&gt;&lt;webctrl tag='b' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="1050,157" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="08968566-2adf-40c4-a902-436a5bc432bc" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="711, 756, 470, 50033" DesignTimeScaleFactor="1" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl src='//associados.abessoftware.com.br/associados/socios' tag='IFRAME' /&gt;&lt;webctrl parentid='topList' tag='UL' /&gt;" Guid="79541cf2-2b63-4e8c-aa7e-4b0cc1e1364b" InformativeScreenshot="89436df6f36c03f2a46ca167e2144ce1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Associados - ABES' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <Sequence DisplayName="add colunas na tabela" sap:VirtualizedContainerService.HintSize="1050,527" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" Unique="{x:Null}" ColumnName="Nome" DataTable="[dt_Companies]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" MaxLength="1000">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:AddDataColumn>
+              <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" Unique="{x:Null}" ColumnName="Endereço" DataTable="[dt_Companies]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_4" MaxLength="1000">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:AddDataColumn>
+            </Sequence>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Companies]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1050,1872" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1016,1755" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="strName" />
+                      <Variable x:TypeArguments="x:String" Name="strAdress" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="954,82" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[CurrentRow(0).ToString]" Version="V3" />
+                    <uix:NCheckState DisplayName="Check App State" sap:VirtualizedContainerService.HintSize="954,529" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="08968566-2adf-40c4-a902-436a5bc432bc" Timeout="10" Version="V3">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,272" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGetText DisplayName="Get Text '00K e-business tools'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="08968566-2adf-40c4-a902-436a5bc432bc" TextString="[strName]" Version="V3">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="https://associados.abessoftware.com.br/associados/socios/00k-e-business-tools-2609" CvType="AnyWordGroup" DesignTimeRectangle="488, 162, 710, 46" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'00K e-business tools'" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' /&gt;" Guid="05655b90-92ed-465a-abf2-b8bca314526c" InformativeScreenshot="38bba95ed1530b26ebe3ca3be0406254.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Associados ABES' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,207" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[New SystemException(&quot;Not Found&quot;)]" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="https://associados.abessoftware.com.br/associados/socios/00k-e-business-tools-2609" CvType="Text" DesignTimeRectangle="488, 162, 710, 46" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'00K e-business tools'" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' aaname='*' /&gt;" Guid="b8901597-7b18-4a94-827e-e97b11e7c26d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAsoAAAAyCAYAAABFyP0dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAthSURBVHhe7d2xixtHG8fx+zPUGt7GkCLX+cr3wEUOXOTAL7zH6yJcFY5UwkUQboxwYYQLc6R4EYYEdEXgXBiUwqCzwaArDErxJpfCIBd2UJFCLzhBGBM/74x2Zmd291lJa/ucu32/H3iwb7S7MzsS7E97I92aAACA2vjvP/714erbn+Xty8fqY69f/iFvvo3a7La//yyzwuOP5U/5VV777eZ1IG9+F/nzkfn/o19FCn1Ej6dt5jjm+K9/+kPe/nQQbReNIzcGW69fxseJxmL6ffvT4+z+S443M33/+Ug7H1u5fV2F/sv2M2XnIDfu6n3ZbZO27DnnSx9n8lz/nHnMjuHtSzNP7vkpm0u9Xe9nfsz0+Ss+Vjhn9fVx+uURlAEAqBHtol+9bFgxcuHNlg0zVjGI2WDkA47Z3+9bEnTSwLRqUPbbZcJrNozNx5Y7VibERYHUt2eD26Ljhcf0IJrd11e8bencReNK2t6vL/tvkN/O7usemnPP2TwoP87Mx/zNzqMw35mxKHOZbS/pp/S1VXbO/jhReP4I5RGUAQCoEe2iv3q5EKOEEh/yyu4G2koDjglL6XY2OBWCcBRQ1ceTcBTCUhyeQqDKhz5tbHa/IA5rUUBMQ9uC48XblY65PLzm2zJznIZL9/N79qX1GUrfN+0n7du/2QlvevS5zLWnYy3px5ftx2yezvHSc3avzUL76ZRHUAYAoEa0i/7K5cKLFrLmYcgHmbIyAccGn8yyjPkx88E7CaTzfkqDYDwOH+CDJGBlw5gWENXQaPvM8McoP55/oxBo51QMhmr/+XY7nmhu360vO0dJW1mfSenj9M9d8rjpL/05G5SXnUu4I13ST1xROF5+zrbsOWrtH748gjIAADWiXfSrlg0+ViEUuSBdHphtqDJBKff4/HhRGJ6HIr/NKkE5v00asHJhTDmWFu7ybaXhLj1eMfQVj6sHQ63/ONTOf7b9pHP2Ln3Zn8PdWb1PX/o4wxzY/5uQnG4TwmnZcTPtZc+NUvPXwcrzayozT6dbHkEZAIAa0S7671o2rBRDrKl5YNZDkN3HB658eyoOOzb8xNKQFYJSMTT5YJUPWMU7jsV9lbuSpeHObZs+Hu1TCOXJmGO239C/PVaQmaM4AL5jX/HxMnNtZJ8PfZw2tKbzlBlDxaCceW5cB47vJ3DPw6Jzzrw+9NfcaZRHUAYAoEa0iz5FUdXKIygDAFAj2kWfoqhq5RGUAQCoEe2iT1FUtfIIygAA1Ih20acoqlp5BGUAAGpEu+hTFFWtPIIyAAA1ol30KYqqVh5BGQCAGtEu+hRFVSuPoAwAQI1oF32KoqqVR1AGAKBGtIs+RVHVyiMoAwBQI9pFn6KoauURlAEAqBHtok9RVLXyCMoAANSIdtGnKKpaeQRlAABqRLvoUxRVrTyCMgAANaJd9CmKqlYeQRkAgBrRLvoURVUrj6AMAECNaBd9iqKqlUdQBgAAABQEZQAAAEBBUAYAAAAUBGUAAABAQVAGAAAAFATlj2z8oCOd27a6Mpy6xtM0HUp33p+pB2PXiBTzAwAASpzpoDw56krry23ZvLwZ6oum7B8MZfLGbeRNBtK9sSfb8baXd6V5tyfDidvGerofHr87co2J2VE7fWzr676cRo4d3lyTtTVb29J74RpP04uebM/7M3Vz6BrPidlUptOkZq7pgzvP8wMAAE7VmQ3Kk+93pOEDjFKNL6Mg++JQdhr6dvNq7En/N7ftcTu0x8Hot77s+WN82pLhK9f+gX30oHyO75hODrZPf64IygAAoMQZDcpj6X3uA2VDtm4dyuBoIP2DlmylgdiEX5eUx9/5QGUC9JW2HJptBz/0pHWlkbbvPXAbq0F5IofX/LYb0j4+tfuXHz8on2MEZQAA8Fc6o0F5KG0fXtba5idvJoPrvn1dOj8mrSF8rpmQm7RZs4fNtH39jltmoQTl8UG4e71xa7T01/zTZ33pXt8NSzjsEo97fRmvcBc6E5SfDsNxvjAB/5fQs7qW2fSbtHWk/8y1vRpL/15TdtOx2GM1w91j7Y5y1NY9nsjkaF/2rib77t405xEva5kWj797vSv959EsLRuDMX3ak05mGc227N0oWaftxte6tu7mal12vrbjNWNLNpCT+/vS/CLqzy2zGfnfHFjTEzm8WxzX/sEo+m2EHpQrjRcAANTS2Q/Kn/dcOEpooTgTPp8nbXPa3eN82/NeWLbxWTfTl+rHjmz4/XOVWQ5SIoy1IY38cpFGSwYuf2bOyd9NjcaenPtU+l+Gu+aZ8uerBcGobf3SRmGJy8bdk2Q7GUnnUvaxtNLlLCuMoXTOSu4Ux2POVPKmaXxvS3nM1aWOGbU1lu5nyuOuNvwbJ21+qo4XAADU0tkPyld7En8Wb2lQjoPMsqCcqVzILjG64+9ybkv3F/tBs4kMbvi2Zhp0y8Tj3/iqK/2jvnS/2kjbWk/y2y0KymGe1m8MZOI++DadjmVkxja3JCivNbakfX8g/Xt7IRz6OTeBcd21bd87mR978rCVtjUf2pNdPoZ4CUUyZ0lNfjmRiTZfs4mMjgZyeGPT7bcpre8HMjgyY5gvk0n6W2vsyP7xWKaTEzm8Hp6X+fM4OZSd+c/mDcy1fRk+t/0dSvNTt69/A6bMT+XxAgCAWiIop7Xa2uTQV7Qk5EnLtbn+lTui2wfJWWTG6oP503Z6V1fdboWg3LjSkt4PJkwemzA3jc5jWVD2bfbusQ+Rfs4L/VlDabm2ZKzLxxCC54bs3k3Wm49McI2HqdHXKE+kdzXpL35thG3dWKNz9HOa2dc/fwuDcrXxAgCAevn/Dsr2K+COo1+zXzLhack647j/YlUMyn6sSqhbLShPpf+Vvuyhce0wmTctFGttWgCN50qpZKwrjOE/+yVLGcybk6fl6fOvCsrvOl4AAFAv5+zDfHGAbJjQkm+L73waUdBr3Cr/MN/oTlj6sGHaFkWh0Neu7Ntv18jUyP1qfpb+uj4td1A1AD/ryqbrf1FQjj+cmJ7nm4mM7nfnH8ybf7jtEx9ad+TQHuoDBeXdb/LnOpDRC3dSy8ZgTJ8NpHe3I535d11vyAV33PR5UfxlQdl4l/ECAIB6OaNBeSzdyz7QbEnneJKEzclAWn55QBSexv/2a1nXZOvO0K2TjdcOR2FJCcoyG0k7/dDa4iUYIcCGr6erIuzfkOaD5Lwm9/dcm1/3a8L7LR8216X9pHg+mTcEsUXLQN4jKKdfr7eK/BgKoq//i8Jp3tKg/Kn/4J7IyTdhPXPXfiNIdI7rt9OtZN+/ri67D26WBOWs1cYLAADq5YwGZRMUb4dQqFb8DRXRh8702krCk6UFZWP2tJ1ZgjEqycrTByHUFiq6w1kmBGWtQiC0f3BF3yYpH5T98S5ciu/kmvLfoPE+QXnalz2/XaHCWFceQ+OibEZ3Z21t3Sv/nhE9KNv+oj4K5T9QOZT2oj9Cc32Q/OZg0fxUHC8AAKiXMxuU5dWJ9K5vZUJKUg25eKUp/cw3VMzk5KApW3/Lb7smjU+2pBn/RbqSoGyPMby5yhKMqQxv78hFLYT5NbkLhKBs/zBKSzbT41yQ7W+i73B+NZTOZxfcY+Y8/m7O+Tt/p7YYlDPV2Azn/D5B2Zg+6chOHH7TCssqKo0hqgtX92W0YE14WVCWVyPZ/+fFwtfa2ee6/TDc+Z79uK+M3b5+2jLw37e8bH6iWjZeAABQL2c3KMdeuXW+q3ztwJuwPniFrd/PrMK4FpjZscZ/5CNmz32VcObHcmpBboV5XWEM9lwXHqOi9Hhl82elr4nqvX7o8QIAgPPjfARlAAAA4CMjKAMAAAAKgjIAAACgICgDAAAACoIyAAAAoCAoAwAAAAqCMgAAAKAgKAMAAAAKgjIAAABQIPI/+Zi+dhJrTysAAAAASUVORK5CYII=" InformativeScreenshot="38bba95ed1530b26ebe3ca3be0406254.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Associados ABES' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" WaitForReadyArgument="Complete" />
+                      </uix:NCheckState.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NCheckState>
+                    <uix:NCheckState DisplayName="Check App State" sap:VirtualizedContainerService.HintSize="954,489" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="08968566-2adf-40c4-a902-436a5bc432bc" Timeout="10" Version="V3">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,272" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGetText DisplayName="Get Text 'Endereço'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="08968566-2adf-40c4-a902-436a5bc432bc" TextString="[strAdress]" Version="V3">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="https://associados.abessoftware.com.br/associados/socios/1doc-14950" CvType="AnyWordGroup" DesignTimeRectangle="523, 569, 147, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Av. Luiz'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' /&gt;" Guid="84533106-4113-401a-b5df-4ac885e36650" InformativeScreenshot="d7df915c9bf979f0c0c9309ce33d5c06.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Associados ABES' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CvTextArgument="Endereco:" CvType="Text" DesignTimeRectangle="523, 551, 51, 17" FriendlyName="'Endereço'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tag='B' aaname='Endereço:' parentclass='grid_14 box-txt nao-anunciante-tab' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='B' aaname='Endereço:' parentclass='grid_14 box-txt nao-anunciante-tab' type='' class='' check:text='Endereço:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAVCAYAAADiv3Z7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJwSURBVFhH7VU9a9tQFO3P0hQIeDAECvFiLxUYtHmKKVR4EGTIUhEQ8iIMxRQqChVZFCho8qTBaDEIAioYDcYBgyCgIWAInN73IcmOY3BoS+ziAw8/3Xd1fM579z69w3+Mo7lDxdHcoeLvmnvMkT/kWD7J5zdGZS6P4Q0cOGtjhLlc3gVxX4GidOEvZOCNUZlb+OgqJK7egtpWoTZrJNRGLJd3wf6b62/ayScenaKH+C6Ea5kwLR/Jo1hb3vmwP5uwbyIE1oq5LIb/zYF5acAeuAimS55fck0jqhQXUUYcs5DmNoxLk6+xGMNyGsAdmBS3yyoSucT7SYdJv95YJAteB6MZf+TYNKcZPIkNb5Lzpey2S6IVnLwvTlRB42sCPMWwT+md0zM67RZq7H1uLoN/weIarki03mRzh1eB4Gqg1TwRufeSo6nTJlxBY/OPAbKSW4VhkR4rQEr2PK2I0WZ8kBy0mYVGe8Ilc2wty1ZdQfdW7Mrai6sn/Oy0o/LkSBiLdzwkdMEkPzobIrTvKX+n5LgO+WUUXjMOaodn3AKS98IHU/aSoVXsVJa7mqt6Too47/LSEZVApUiFsCGo4FipGF6C/8Rcj/pgHMmRghXmVnP5CAb/syHCsQ+TlR83l2B4TvO2jXAmPg/ZfQbWdRuCCo6eh3Qhcuf0W3G7SFh8lpGWGA4r1baDiEo/GqjE1cDw1649tzbEbbnVHMmN+y2RW9ehsz6T5Tf/aeCMCSm4tu42cXzRZL/KUXCvxYWW9KazllvrBZjTd/WlU6zM7SnyQKfe9V/1vS2w5+bkrWtF8vl12PuT+xMczR0qjuYOE8Bv6LuCKrwjgmgAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,207" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[New SystemException(&quot;Not Found&quot;)]" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="https://associados.abessoftware.com.br/associados/socios/00k-e-business-tools-2609" CvType="Text" DesignTimeRectangle="523, 375, 201, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'AV. DR.'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='*' /&gt;" Guid="aabc726a-2e49-4171-bdd8-93596c7b7e06" ImageBase64="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" InformativeScreenshot="ce8336a8718cc45b5ca01e1600cdce72.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Associados ABES' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" WaitForReadyArgument="Complete">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="Endereco:" CvType="Text" DesignTimeRectangle="523, 357, 51, 17" FriendlyName="'Endereço'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tag='B' aaname='Endereço:' parentclass='grid_14 box-txt nao-anunciante-tab' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='B' aaname='Endereço:' parentclass='grid_14 box-txt nao-anunciante-tab' type='' class='' check:text='Endereço:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAVCAYAAADiv3Z7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJwSURBVFhH7VU9a9tQFO3P0hQIeDAECvFiLxUYtHmKKVR4EGTIUhEQ8iIMxRQqChVZFCho8qTBaDEIAioYDcYBgyCgIWAInN73IcmOY3BoS+ziAw8/3Xd1fM579z69w3+Mo7lDxdHcoeLvmnvMkT/kWD7J5zdGZS6P4Q0cOGtjhLlc3gVxX4GidOEvZOCNUZlb+OgqJK7egtpWoTZrJNRGLJd3wf6b62/ayScenaKH+C6Ea5kwLR/Jo1hb3vmwP5uwbyIE1oq5LIb/zYF5acAeuAimS55fck0jqhQXUUYcs5DmNoxLk6+xGMNyGsAdmBS3yyoSucT7SYdJv95YJAteB6MZf+TYNKcZPIkNb5Lzpey2S6IVnLwvTlRB42sCPMWwT+md0zM67RZq7H1uLoN/weIarki03mRzh1eB4Gqg1TwRufeSo6nTJlxBY/OPAbKSW4VhkR4rQEr2PK2I0WZ8kBy0mYVGe8Ilc2wty1ZdQfdW7Mrai6sn/Oy0o/LkSBiLdzwkdMEkPzobIrTvKX+n5LgO+WUUXjMOaodn3AKS98IHU/aSoVXsVJa7mqt6Too47/LSEZVApUiFsCGo4FipGF6C/8Rcj/pgHMmRghXmVnP5CAb/syHCsQ+TlR83l2B4TvO2jXAmPg/ZfQbWdRuCCo6eh3Qhcuf0W3G7SFh8lpGWGA4r1baDiEo/GqjE1cDw1649tzbEbbnVHMmN+y2RW9ehsz6T5Tf/aeCMCSm4tu42cXzRZL/KUXCvxYWW9KazllvrBZjTd/WlU6zM7SnyQKfe9V/1vS2w5+bkrWtF8vl12PuT+xMczR0qjuYOE8Bv6LuCKrwjgmgAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="954,132" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Object">[CurrentRow(1)]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Object">[strName]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Object">[CurrentRow(2)]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Object">[strAdress]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Foi extraído com sucesso: &quot; + strName + &quot; e &quot; + strAdress]" />
+                    <ui:WriteRange AddHeaders="False" DataTable="[dt_Companies]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="954,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="Extracao_Associados_Abes.xlsx" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1616, 876" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALfSURBVFhHpddtaI1hHMfxc/aANpuHPDRmC0Wj1chS0rZLSkJNXnglSSmt9oa82GtKSiQpr1Ai5DLZzgstUwopFGo004Q204o87MEefP/3+R/d3V2Onfv61afWvfv8f9fux7PElGNNPtbgKJ5hCJNT8BgLdUrMWDMPLXiPCbiKXGSRe6GD4sSactzEKFwl2bRhlk6KEWtKcBnjcBVkM4jNOilG5LBZswe/4CrIRk7TWUzTaTFizQzcgavgf3qwWifFTPrcv9WBuRjDEeTppJixZhX64SqRa6IPvVHTbH1Hnm0o0ykesWYZPsC1ALkdN6AyzLTWVL1sL275nsor1ikesWY2HsK1gC9Yq3sGGUsFdqMH1brZI9YkcUYLo+QUHNA9g1C6AA8whn262TPWNGJYS6OuolB2ozCJQxjFJC6gIJjhFWsq0K2FUXKHVMpulK3EG0i5eI3FwQyvyF9ozTUtjBpBI0WFOI0JZBYwhG06xTPWNONfj+ITQ6nkJsoGQuUZx5DUKR6xpgYDodK/Smzdi772wvuR4gy5IEt1ikfSL6TOcHHG/Fsbb39L5T+NFGcMolaneCT9UjoeLlafCmzDekpOhUrDxnFQp3jGmi34GSqXa0K+GRVQsgNy0bkWcQMeb8RMrCnDK2QWID8vl19RsAThWzDsHZYGM7yS/j54Scvl9juA4AqnQI7CFS2MkgfTrmCGd6zZD3nV3sVc3RqEkoOQc+5axEl4vpol1lShC1uhG9OhoBr9Whj1BHN01/iZaeuKalprmx61lcpjtzKiHh/hWsAHBNeLV36nEhWjqWQnw3odPiP8KA6TI1OlY+KFAfmQR6u8al0l2XSjXEfFCwPWQQ6lq+B/rmO6jso9fHgGLuqwXP3ATh2Ve/iw2I6vcBVkI6frHIp0XO7hw3PRAVdBNsM4j/j/lPJh+ZrVhBG4Slzkr+5CM/xexQxYhOdwFUV9wT0cxgpM8cmXSPwBPCQnyOs3P54AAAAASUVORK5CYII=" InformativeScreenshot="dbdc90b101df0428cd78e0b749e48fe5.jpg" Selector="&lt;html app='chrome.exe' title='Associados - ABES' /&gt;" Title="Associados - ABES" Url="[strUrl]" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
